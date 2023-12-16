@@ -1,0 +1,3 @@
+function backcase(){
+    window.close()
+}

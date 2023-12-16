@@ -1,0 +1,559 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.background {
+    background-image: url('images/bg.jpeg');
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: black;
+    width: 100%;
+}
+
+.logo {
+    font-family: sans-serif;
+    font-weight: 800;
+    color: white;
+}
+
+b {
+    font-family: sans-serif;
+    font-weight: 800;
+    color: orangered;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.menu-link-first {
+    border: 1.5px solid orangered;
+}
+
+.menu-link-first:hover {
+    background-color: orangered;
+    color: black;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all ease 0.4s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+}
+
+.menu-link:hover {
+    background-color: orangered;
+    color: black;
+}
+
+main {
+    margin: auto;
+}
+
+.home {
+    width: 100%;
+    height: 30rem;
+}
+
+.home-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30rem;
+    width: 60%;
+    flex-direction: column;
+}
+
+.home-content .home-h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+    line-height: 4rem;
+}
+
+.sm-line {
+    width: 110px;
+    border: 2px solid white;
+    margin-right: 17rem;
+    margin-top: -15px;
+}
+
+.home-para {
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+
+.para {
+    color: white;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.about {
+    margin-top: 7rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.about .about-content {
+    width: 80%;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.about-left {
+    width: 50%;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.about-left img {
+    width: 100%;
+    border-radius: 9px;
+}
+
+.about-right {
+    width: 50%;
+}
+
+.about .about-content .about-right p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    font-weight: 600;
+}
+
+.about .about-content u h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    /* border-bottom: 3px solid orangered; */
+}
+
+.about .about-content u {
+    color: orangered;
+}
+
+.services {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.services .services-content {
+    width: 80%;
+}
+
+.services .services-content u h1 {
+    text-align: center;
+    margin: 1.5rem 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+
+.services .services-content u {
+    color: orangered;
+}
+
+.services .services-content .cards .card {
+    width: 250px;
+    height: 370px;
+    border: 1.6px solid black;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.services .services-content .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    margin: 3rem 0;
+}
+
+.services .services-content .cards .card .img {
+    width: 100%;
+    height: 150px;
+    border-bottom: 1px solid black;
+}
+
+.services .services-content .cards .card .img .card-img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-para {
+    padding: 8px;
+    text-align: justify;
+    height: 230px;
+}
+
+.services .services-content .cards .card .card-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.btn-sm {
+    height: 2.5rem;
+    width: 7rem;
+    margin-right: 7px;
+    color: blue;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.btn-sm:hover {
+    font-size: 15px;
+}
+
+.btn-sm-link {
+    color: blue;
+}
+
+.contact {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact u h1 {
+    text-align: center;
+    margin: 1.5rem 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+
+.contact u {
+    color: orangered;
+}
+
+.contact .contact-content {
+    width: 80%;
+}
+
+.email-box {
+    margin: 4rem 0;
+}
+
+.email-form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-input {
+    width: 20rem;
+    height: 3rem;
+    padding: 5px;
+    border: 2px solid orangered;
+    border-radius: 5px;
+    transition: all ease 0.4s;
+}
+
+.email-input:hover {
+    border-color: black;
+}
+
+.email-text {
+    height: 12rem;
+    width: 25rem;
+    padding: 8px;
+    border: 2px solid orangered;
+    border-radius: 5px;
+    transition: all ease 0.4s;
+}
+
+.email-text:hover {
+    border-color: black;
+}
+
+.contact-map {
+    width: 100%;
+}
+
+.map {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.other-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 2rem;
+    box-shadow: 5px 5px 15px white;
+    border-radius: 10px;
+    background-color: white;
+    margin: 30px 0;
+}
+
+.other-contact .contact-img {
+    height: 3rem;
+    transition: all ease 0.3s;
+}
+
+.other-contact .contact-img:hover {
+    height: 3.5rem;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 70px;
+    padding: 5px;
+}
+
+footer h3 {
+    color: white;
+    font-weight: 300;
+}
+
+footer h3 span {
+    color: orangered
+}
+
+.menu-icon {
+    font-size: 1.7rem;
+    cursor: pointer;
+    color: white;
+    display: none;
+    padding: 9px 9px;
+}
+
+.menu-icon:hover{
+    background-color: orangered;
+    border-radius: 50%;
+    color: black;
+    transition: all ease 0.4s;
+}
+
+@media screen and (max-width: 768px) {
+    /* .home-content .home-h1{
+        font-size: 2rem;
+        line-height: 30px;
+    } */
+
+    .home-content .home-h1 {
+        font-size: 2rem;
+        line-height: 30px;
+        margin-bottom: 1rem;
+        /* Add some bottom margin */
+    }
+
+    .home-para .para {
+        font-size: 12px;
+        margin-top: 0.5rem;
+         margin-right: 0; 
+        
+    }
+
+    .home-para{
+        margin-top: 1rem;
+    }
+
+    .sm-line {
+        width: 78px;
+        margin-right: 216px;
+        border: 1px solid white;
+        margin-top: 5px;
+    }
+
+    /* .home-para .para{
+        font-size: 13px;
+    } */
+    .menu {
+        top: 4rem;
+        display: none;
+        position: absolute;
+        height: 27rem;
+        width: 100%;
+        left: 0;
+        background-color: black;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .menu .menu-list {
+        margin: 50px 0;
+    }
+
+    .menu-link-first {
+        border: none;
+    }
+
+    .services .services-content {
+        width: 75%;
+    }
+
+    .services .services-content .cards .card {
+        height: 320px;
+    }
+
+    .services .services-content .cards .card .img {
+        height: 130px;
+    }
+
+    .card-para {
+        height: 190px;
+        font-size: 14px;
+    }
+
+    .email-input {
+        width: 18rem;
+    }
+
+    .email-text {
+        width: 23rem;
+    }
+
+    .home-content {
+        width: 50%;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .menu-block {
+        display: block;
+    }
+
+    .menu .menu-list {
+        display: block;
+    }
+
+    .menu-link {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .menu {
+        gap: 0.5rem;
+    }
+
+    .background {
+        background-image: url("images/superbike.avif");
+    }
+
+    .home-content {
+        width: 100%;
+        margin-top: -1px;
+        padding-bottom: 100px;
+    }
+
+    .map {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 936px) {
+    .about .about-content {
+        flex-direction: column;
+    }
+
+    .about-right {
+        width: 90%;
+    }
+
+    .about-left {
+        width: 70%;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .home-content .home-h1 {
+        font-size: 2rem;
+        line-height: 40px;
+    }
+    .sm-line{
+        margin-right: 190px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .email-text {
+        height: 8rem;
+        width: 90%;
+    }
+
+    .sm-line{
+        margin-right: 150px;
+        margin-top: 5px;
+    }
+
+    .home-content .home-h1 {
+        margin-top: 20px;
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+
+    .email-input {
+        width: 75%;
+    }
+
+    footer h3 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-height: 400px) {
+    .home-content .home-h1 {
+        font-size: 1.3rem;
+        line-height: 25px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 330px){
+    .logo{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 270px){
+    footer h3{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 696px){
+    .services .services-content .cards{
+        justify-content: center;
+    }
+}
